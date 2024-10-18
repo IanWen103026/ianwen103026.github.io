@@ -20,13 +20,13 @@
     
         <meta name="description" content="特技表演 原 APCS 2024年 6月 第一題 題目敘述有一個城鎮有 n 棟高樓，樓高分別為 h1, h2, h3 ~ hn，市長想要在城鎮中心舉辦高空特技表演，該特技表演會從某棟大樓上 朝右側 滑翔至地面。 為了表演人員的安全，滑翔的路徑樓高必須 越來越低，請你找出一個最長的滑翔路徑。 解題思路題目要你做的事情就是，找一個起點，從那個起點開始滑翔，可以飛越最多高樓而不撞上高樓。 Step 1.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ZeroJudge o076">
+<meta property="og:title" content="ZeroJudge o076 題解">
 <meta property="og:url" content="http://blog.ianwen.me/2024/10/18/ZeroJudge-o076/index.html">
 <meta property="og:site_name" content="A Sheep&#39;s Journey">
 <meta property="og:description" content="特技表演 原 APCS 2024年 6月 第一題 題目敘述有一個城鎮有 n 棟高樓，樓高分別為 h1, h2, h3 ~ hn，市長想要在城鎮中心舉辦高空特技表演，該特技表演會從某棟大樓上 朝右側 滑翔至地面。 為了表演人員的安全，滑翔的路徑樓高必須 越來越低，請你找出一個最長的滑翔路徑。 解題思路題目要你做的事情就是，找一個起點，從那個起點開始滑翔，可以飛越最多高樓而不撞上高樓。 Step 1.">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-10-18T00:35:34.000Z">
-<meta property="article:modified_time" content="2024-10-18T00:39:11.928Z">
+<meta property="article:modified_time" content="2024-10-18T00:44:21.215Z">
 <meta property="article:author" content="Ian Wen">
 <meta property="article:tag" content="題解">
 <meta name="twitter:card" content="summary">
@@ -41,7 +41,7 @@
     
     <title>
         
-            ZeroJudge o076 -
+            ZeroJudge o076 題解 -
         
         A Sheep&#39;s Journey
     </title>
@@ -361,7 +361,7 @@
         <div class="label text-third-text-color text-sm">Categories</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">2</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">4</div>
         <div class="label text-third-text-color text-sm">Posts</div>
     </a>
 </div>
@@ -387,7 +387,7 @@
         <div class="article-title relative w-full">
             
                 <div class="w-full flex items-center pt-6 justify-start">
-                    <h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">ZeroJudge o076</h1>
+                    <h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">ZeroJudge o076 題解</h1>
                 </div>
             
             </div>
@@ -413,8 +413,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-10-18 08:39:11</span>
-            <span class="mobile">2024-10-18 08:39:11</span>
+            <span class="desktop">2024-10-18 08:44:21</span>
+            <span class="mobile">2024-10-18 08:44:21</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -470,14 +470,14 @@
             <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
                 <div class="article-copyright-info-container">
     <ul>
-        <li><strong>Title:</strong> ZeroJudge o076</li>
+        <li><strong>Title:</strong> ZeroJudge o076 題解</li>
         <li><strong>Author:</strong> Ian Wen</li>
         <li><strong>Created at
                 :</strong> 2024-10-18 08:35:34</li>
         
             <li>
                 <strong>Updated at
-                    :</strong> 2024-10-18 08:39:11
+                    :</strong> 2024-10-18 08:44:21
             </li>
         
         <li>
@@ -513,6 +513,21 @@
 
         
             <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/10/18/ZeroJudge-f312/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">ZeroJudge f312 題解</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
                 
                 
                     <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
@@ -585,7 +600,7 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">On this page</div>
-        <div class="page-title">ZeroJudge o076</div>
+        <div class="page-title">ZeroJudge o076 題解</div>
         <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%89%B9%E6%8A%80%E8%A1%A8%E6%BC%94"><span class="nav-text">特技表演 </span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%8C%E7%9B%AE%E6%95%98%E8%BF%B0"><span class="nav-text">題目敘述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%A3%E9%A1%8C%E6%80%9D%E8%B7%AF"><span class="nav-text">解題思路</span></a></li></ol></li></ol></li></ol>
 
     </div>
@@ -619,7 +634,7 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        2 posts in total
+                        4 posts in total
                     </span>
                     
                 </p>
